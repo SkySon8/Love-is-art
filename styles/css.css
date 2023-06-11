@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url("../Fonts/Merriweather-Black.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url("../Fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url("../Fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Merriweather-lightItalic';
+    src: url("../Fonts/Merriweather-LightItalic.ttf");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Merriweather', sans-serif;
+    background-color: white;
+    padding: 54px 0;
+}
+
+.menu-items {
+    text-decoration: none;
+}
+
+.menu-item-logo {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 120px;
+}
+
+.menu-item {
+    margin-right: 120px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-items a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu-nav {
+    text-align: center;
+}
+
+.main {
+    background-image: url("../images/background.png");
+    padding: 200px 0 21px 0;
+}
+
+.main-title-light {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: normal;
+    max-width: 370px;
+    margin-bottom: 11px;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.main-title-bold {
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #484848;
+    font-size: 39px;
+    line-height: 45px;
+    letter-spacing: -0.03em;
+    max-width: 380px;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.arrow {
+    margin-left: 300px;
+}
+
+.gallery {
+    background-image: url("../images/bg.png");
+    padding: 190px 0 0 0;
+}
+
+.gallery-title {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: normal;
+    text-align: center;
+    color: #484848;
+    margin-bottom: 80px;
+}
+
+.gallery-img {
+    text-align: center;
+}
+
+.gallery-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.gallery-link {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+.about {
+    background-image: url("../images/backgr.png");
+}
+
+.about-title {
+    font-family: 'Merriweather', sans-serif;
+    padding: 200px 0 93px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    color: #484848;
+}
+
+.about-block {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.about-p1 {
+    font-family:  'Merriweather-lightItalic', sans-serif;
+    padding: 60px 0 32px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    max-width: 600px;
+}
+
+.about-h2 {
+    text-align: center;
+    color: #484848;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 32px;
+}
+
+.about-p2 {
+    font-family:  'Merriweather-lightItalic', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.phone-delivery {
+    padding: 150px 0 230px 0;
+}
+
+.why-items {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2,400px);
+    justify-content: center;
+}
+
+.why-item {
+    text-align: center;
+    display: inline-block;
+}
+
+.why-item h3 {
+    font-family: 'Montserrat-light', sans-serif;
+    color: #484848;
+    margin: 34px 0 25px 0;
+    font-size: 35px;
+    line-height: 39px;
+}
+
+.icon-intagram {
+    padding-bottom: 25px;
+}
+
+.instagram {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #484848;
+}
+
+.telegram {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    margin-left: 15px;
+    color: #484848;
+}
+
+.img-inst {
+    vertical-align: middle;
+}
+
+.img-tg {
+    vertical-align: middle;
+}
+
+.icon-delivery h3 {
+    font-family: 'Montserrat-light', sans-serif;
+    color: #484848;
+    font-size: 35px;
+    line-height: 39px;
+}
+
+.icon-delivery p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #484848;
+}
+
+.reviews {
+    background-image: url("../images/review-back.png");
+    padding: 70px 0 73px 0;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 87px;
+}
+
+.review-image {
+    margin-right: 26px;
+}
+
+.reviews-content {
+    vertical-align: middle;
+}
+
+.reviews-title {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    color: #484848;
+    padding-bottom: 73px;
+}
+
+.atribut {
+    vertical-align: top;
+}
+
+.review-atribut h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #424242;
+    padding-bottom: 22px;
+}
+
+.atribut-span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #595959;
+    margin-left: 26px;
+}
+
+.footer {
+    background-color: #F1F1F1;
+    padding: 40px 0 41px 0;
+}
+
+.footer-logo {
+    font-family: 'Merriweather', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    color: #484848;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.footer-span {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.06em;
+    color: #484848;
+}
+
+.creat-landing {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.06em;
+    color: #484848;
+    padding: 10px 0 6px 0;
+    text-align: right;
+}
+
+.creat-design {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.06em;
+    color: #484848;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
